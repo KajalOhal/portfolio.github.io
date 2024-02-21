@@ -1,0 +1,91 @@
+.about-section {
+    background-color: black;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .container h2{
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+
+  }
+  h2 {
+    color: white;
+  }
+  
+  .description {
+    font-size: 16px;
+    margin-bottom: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    width: 150px;
+    margin-right: 20px;
+    transform: scale(1.5);
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .skills {
+    margin-top: 20px;
+    margin-left: 10%;
+
+  }
+  
+  .skills h3 {
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .skill-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+  }
+  
+  .skill-percentage {
+    margin-right: 0;
+    color: white; /* Style the percentage */
+}
+
+  .skill-meter {
+    background-color: #333;
+    height: 5px;
+    width: 300px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .skill-level {
+    height: 100%;
+    background-color: yellow;
+  }
+  .skill-percentage{
+    color: #fff;
+    margin-left: 20px;
+    font-size: 14px;
+  }

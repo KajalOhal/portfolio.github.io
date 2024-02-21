@@ -1,0 +1,71 @@
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    height: 100vh;
+    background-color: black;
+    }
+    
+    .left-section {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left: 15%;
+    }
+    
+    .right-section {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 170px;
+    }
+    
+    
+    .right-section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 137px;
+    margin-right: 270px;
+    transform: scale(1.3);
+    }
+    
+    .greeting {
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 0;
+    }
+    
+    .yellow-font {
+    color: rgb(254, 192, 20);
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .hello-font {
+    color: rgb(254, 192, 20);
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .white-font {
+    color: white;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .role {
+    font-size: 24px;
+    line-height: 1.2;
+    }
+    
+    .job-title {
+    font-size: 36px;
+    line-height: 1.2;
+    }
+    .job{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
